@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing BackGround Color</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+        .m{
+            margin-top: 150px;
+            margin-left: 500px;
+        }
+        .r{
+            height: 80px;
+            width: 300px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+        .g{
+            height: 80px;
+            width: 300px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+        .b{
+            height: 80px;
+            width: 300px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function red()
+        {
+            document.body.style.backgroundColor="red"
+        }
+        function green()
+        {
+            document.body.style.backgroundColor="green"
+        }
+        function blue()
+        {
+            document.body.style.backgroundColor="blue"
+        }
+    </script>
+</head>
+<body>
+    <div class="m">
+        <div class="r">
+            <input class="r" type="button" onclick="red()" value="Red">
+        </div>
+        <br>
+        <div class="g">
+            <input class="g" type="button" onclick="green()" value="Green">
+        </div>
+        <br>
+        <div class="b">
+            <input class="b" type="button" onclick="blue()" value="Blue">
+        </div>
+    </div>
+</body>
+</html>
